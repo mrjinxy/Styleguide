@@ -4,7 +4,7 @@ The Starter UI toolkit is a highly-modular design system for rapid web page deve
 
 ## Getting Started
 
-Views > layouts > default.html -  This is the base layout fro the styleguide.
+Views > layouts > default.html -  This is the base layout for the styleguide.
 Add the link to your CSS and JS files here.
 Then start to make each component.
 
