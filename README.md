@@ -1,4 +1,4 @@
-# Starter
+# Styleguide Starter
 
 The Starter UI toolkit is a highly-modular design system for rapid web page development. It contains different materials that can be assembled into more complex page layouts.
 
