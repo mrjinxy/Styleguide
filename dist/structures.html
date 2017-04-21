@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="/assets/fabricator/styles/f.css">
 
 	<!-- toolkit styles -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="/assets/toolkit/styles/toolkit.css">
 	<!-- /toolkit styles -->
 
@@ -185,16 +186,102 @@
 <div class="f-item-preview">
 	<form action="">
 	<div>
-		<label for="textInput">Text input</label>
-		<input type="text" id="textInput" /> </div>
-	<button class="button">Submit</button></form>
+		<div class="form-group">
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		</div>
+	</div>
+	<div>
+		<div class="form-group">
+			<label for="exampleTextarea">Example textarea</label>
+			<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+		</div>
+	</div>
+	<div>
+		<div class="form-group">
+			<label>
+		<input type="checkbox" /> Checkbox
+	</label>
+		</div>
+	</div>
+	<div>
+		<div class="form-group">
+			<label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+	        Option can be something else and selecting it will deselect option two
+	     </label>
+			<br />
+			<label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+	        Option can be something else and selecting it will deselect option one
+	     </label>
+		</div>
+	</div>
+	<div>
+		<div class="form-group">
+			<label for="exampleSelect1">Example select</label>
+			<select class="form-control" id="exampleSelect1">
+	      <option>1</option>
+	      <option>2</option>
+	      <option>3</option>
+	      <option>4</option>
+	      <option>5</option>
+	    </select>
+		</div>
+	</div>
+	<div>
+		<button type="submit" class="btn btn-primary">Submit</button> </div>
+</form>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
 	<pre><code class="language-markup">&lt;form action&#x3D;&quot;&quot;&gt;
 	&lt;div&gt;
-		&lt;label for&#x3D;&quot;textInput&quot;&gt;Text input&lt;/label&gt;
-		&lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot; /&gt; &lt;/div&gt;
-	&lt;button class&#x3D;&quot;button&quot;&gt;Submit&lt;/button&gt;&lt;/form&gt;</code></pre>
+		&lt;div class&#x3D;&quot;form-group&quot;&gt;
+			&lt;label for&#x3D;&quot;exampleInputEmail1&quot;&gt;Email address&lt;/label&gt;
+			&lt;input type&#x3D;&quot;email&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;exampleInputEmail1&quot; aria-describedby&#x3D;&quot;emailHelp&quot; placeholder&#x3D;&quot;Enter email&quot;&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class&#x3D;&quot;form-group&quot;&gt;
+			&lt;label for&#x3D;&quot;exampleTextarea&quot;&gt;Example textarea&lt;/label&gt;
+			&lt;textarea class&#x3D;&quot;form-control&quot; id&#x3D;&quot;exampleTextarea&quot; rows&#x3D;&quot;3&quot;&gt;&lt;/textarea&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class&#x3D;&quot;form-group&quot;&gt;
+			&lt;label&gt;
+		&lt;input type&#x3D;&quot;checkbox&quot; /&gt; Checkbox
+	&lt;/label&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class&#x3D;&quot;form-group&quot;&gt;
+			&lt;label class&#x3D;&quot;form-check-label&quot;&gt;
+	        &lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;form-check-input&quot; name&#x3D;&quot;optionsRadios&quot; id&#x3D;&quot;optionsRadios1&quot; value&#x3D;&quot;option1&quot;&gt;
+	        Option can be something else and selecting it will deselect option two
+	     &lt;/label&gt;
+			&lt;br /&gt;
+			&lt;label class&#x3D;&quot;form-check-label&quot;&gt;
+	        &lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;form-check-input&quot; name&#x3D;&quot;optionsRadios&quot; id&#x3D;&quot;optionsRadios2&quot; value&#x3D;&quot;option2&quot;&gt;
+	        Option can be something else and selecting it will deselect option one
+	     &lt;/label&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div class&#x3D;&quot;form-group&quot;&gt;
+			&lt;label for&#x3D;&quot;exampleSelect1&quot;&gt;Example select&lt;/label&gt;
+			&lt;select class&#x3D;&quot;form-control&quot; id&#x3D;&quot;exampleSelect1&quot;&gt;
+	      &lt;option&gt;1&lt;/option&gt;
+	      &lt;option&gt;2&lt;/option&gt;
+	      &lt;option&gt;3&lt;/option&gt;
+	      &lt;option&gt;4&lt;/option&gt;
+	      &lt;option&gt;5&lt;/option&gt;
+	    &lt;/select&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;btn btn-primary&quot;&gt;Submit&lt;/button&gt; &lt;/div&gt;
+&lt;/form&gt;</code></pre>
 </div>
 
 
