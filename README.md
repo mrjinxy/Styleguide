@@ -1,29 +1,10 @@
-# Styleguide Starter
+# Starter
 
 The Starter UI toolkit is a highly-modular design system for rapid web page development. It contains different materials that can be assembled into more complex page layouts.
 
 ## Getting Started
 
-Views > layouts > default.html -  This is the base layout for the styleguide.
-Add the link to your CSS and JS files here.
-Then start to make each component.
-
-## Using The Starter Styleguide
-### Components
-Components are small chunks of UI which can stand alone or be added together to create structures.
-e.g. form components added to create a form.
-Each component includes the following:
-Example of the component
-HTML Markup of component
-Optional comments about the component e.g. use cases, best practises etc.
-
-
-### Structures
-Multiple components can be added together to make structures.
-
-### Pages
-Add multiple structures/components together to create new layouts
-
+Starter requires [node.js](http://nodejs.org). Make sure your have `v0.10` or higher installed before proceeding.
 
 **Start the local development environment:**
 
@@ -47,4 +28,6 @@ $ npm start
 $ npm run build
 ```
 
-Builds both a static documentation site and optimized CSS and JS toolkit files.
+Fabricator builds both a static documentation site and optimized CSS and JS toolkit files.
+
+The build artifacts output to the `dist` directory. This can be deployed to any static hosting environment - no language runtime or database is required.

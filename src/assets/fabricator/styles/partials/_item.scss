@@ -1,9 +1,9 @@
 .f-item-group {
 	@include clearfix;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	padding-bottom: 3rem;
-	border-bottom: 1px solid map-get($colors, light);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border: 1px solid #d3d3d3;
 
 	&:last-child {
 		border-bottom: 0;
